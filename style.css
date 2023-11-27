@@ -1,0 +1,49 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+#timer {
+  color: white;
+  font-size: 100px; /* Увеличен размер шрифта согласно изображению */
+  font-family: "Arial", sans-serif;
+  letter-spacing: 10px; /* Добавлено расстояние между символами */
+}
+
+.hidden {
+  display: none;
+}
+
+#inputArea {
+  color: white;
+  font-family: "Arial", sans-serif;
+  margin-bottom: 20px;
+}
+
+input {
+  color: black;
+  font-size: 20px;
+  width: 60px; /* Увеличен размер для удобства ввода */
+  margin: 5px;
+  background-color: white; /* Фоновый цвет для видимости цифр */
+  text-align: center; /* Центрирование текста */
+  border: none; /* Убрать границу */
+  border-radius: 5px; /* Скруглить углы */
+}
+
+button {
+  margin: 5px;
+  font-size: 20px;
+  padding: 10px 20px; /* Увеличенный padding для большей кнопки */
+  background-color: white; /* Фоновый цвет для видимости кнопки */
+  color: black; /* Цвет текста */
+  border: none; /* Убрать границу */
+  border-radius: 5px; /* Скруглить углы */
+  cursor: pointer; /* Курсор в виде указателя */
+}
